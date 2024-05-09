@@ -1,0 +1,150 @@
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero {
+	background-image: url('hero-image.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero h1 {
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.hero p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.features {
+	background-color: #f7f7f7;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.features ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.features li {
+	margin-bottom: 10px;
+}
+
+.features i {
+	margin-right: 10px;
+}
+
+.characters {
+	background-color: #f7f7f7;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.characters ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.characters li {
+	margin-bottom: 20px;
+}
+
+.characters img {
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+.characters h3 {
+	margin-top: 10px;
+}
+
+.characters p {
+	margin-bottom: 20px;
+}
+
+.episodes {
+	background-color: #f7f7f7;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.episodes ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.episodes li {
+	margin-bottom: 20px;
+}
+
+.episodes i {
+	margin-right: 10px;
+}
+
+.episodes p {
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	clear: both;
+}
+
+footer p {
+	margin-bottom: 10px;
+}
